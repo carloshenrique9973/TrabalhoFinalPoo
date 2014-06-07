@@ -352,7 +352,7 @@ public class AlunoFrame extends javax.swing.JFrame {
             );
         } catch (NullPointerException e) {
             JOptionPane.showMessageDialog(this,
-                    "Aluno não encontrado!n"
+                    "Aluno não localizado!n"
                     + e.getLocalizedMessage()
             );
         }
